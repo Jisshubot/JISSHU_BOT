@@ -1,5 +1,5 @@
 # Don't Remove Credit @IM_JISSHU
-# Subscribe YouTube Channel For Amazing Bot @IM_JISSHU
+# Subscribe YouTube Channel For Amazing Bot@JISSHU_BOTS 
 # Ask Doubt on telegram @IM_JISSHU
 
 #Thanks @Lazy helping this journey 
