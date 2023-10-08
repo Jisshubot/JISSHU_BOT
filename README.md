@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://graph.org/file/b0165cc9d669f2d61d282.mp4" alt="ROSE BUCKET Logo">
+  <VID src="https://graph.org/file/b0165cc9d669f2d61d282.mp4" alt="ROSE BUCKET Logo">
 <h1 align="center">
   JISSHU-BOT 
 </h1>
