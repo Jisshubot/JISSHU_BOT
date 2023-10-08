@@ -1,6 +1,6 @@
-# Don't Remove Credit @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Don't Remove Credit @IM_JISSHU
+# Subscribe YouTube Channel For Amazing Bot @IM_JISSHU
+# Ask Doubt on telegram @IM_JISSHU
 
 #Thanks @Lazy helping this journey 
 import logging
