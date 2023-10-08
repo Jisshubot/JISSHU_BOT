@@ -175,7 +175,7 @@ python3 bot.py
 <hr>
 
 
-## Thanks to 
+## Thanks to ⚡
  - Thanks To Dan For His Awesome [Library](https://github.com/pyrogram/pyrogram)
  - Thanks To VJ For His Awesome [Media-Search-bot](https://github.com/zishankhan12)
  - Thanks To [JISSHU-BOT](https://youtube.com)
