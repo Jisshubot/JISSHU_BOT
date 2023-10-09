@@ -1256,7 +1256,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             lazy_stream = f"{URL}watch/{str(log_msg.id)}/{quote_plus(get_name(log_msg))}?hash={get_hash(log_msg)}"
             lazy_download = f"{URL}{str(log_msg.id)}/{quote_plus(get_name(log_msg))}?hash={get_hash(log_msg)}"
 
-            xo = await query.message.reply_text(f'🔐')
+            xo = await query.message.reply_text(f'⚡')
             await asyncio.sleep(1)
             await xo.delete()
 
@@ -1607,7 +1607,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "tele":
             btn = [[
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="help"),
-                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/KingVJ01")
+                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/IM_JISSHU")
                   ]]
             await client.edit_message_media(
                 query.message.chat.id, 
@@ -1648,7 +1648,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "share":
             btn = [[
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="help"),
-                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/KingVj01")
+                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/IM_JISSHU")
                   ]]
             await client.edit_message_media(
                 query.message.chat.id, 
@@ -2123,7 +2123,7 @@ async def auto_filter(client, msg, spoll=False):
             try:
                if settings['auto_delete']:
                     await asyncio.sleep(300)
-                    m=await message.reply_sticker("CAACAgIAAxkBAAIZ3mUhQaiQETw7p9xY473Lqn82uEXuAAJjAQACEBptImu6AmhfaYu5HgQ")
+                    m=await message.reply_sticker("CAACAgIAAxkBAAIcZWUkLe1ufxXu9522cTRRleuvQAMrAAJjAQACEBptImu6AmhfaYu5HgQ")
                     await hmm.delete()
                     await message.delete()
             except KeyError:
@@ -2133,7 +2133,7 @@ async def auto_filter(client, msg, spoll=False):
                 await message.delete()
         except Exception as e:
             logger.exception(e)
-            m=await message.reply_sticker("CAACAgIAAxkBAAIZ3mUhQaiQETw7p9xY473Lqn82uEXuAAJjAQACEBptImu6AmhfaYu5HgQ") 
+            m=await message.reply_sticker("CAACAgIAAxkBAAIcZWUkLe1ufxXu9522cTRRleuvQAMrAAJjAQACEBptImu6AmhfaYu5HgQ") 
             fek = await message.reply_text(text=cap, reply_markup=InlineKeyboardMarkup(btn))
             await m.delete()
             try:
