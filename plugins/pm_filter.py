@@ -1299,8 +1299,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='about')
                 ],[
-                  InlineKeyboardButton('💌 SOURCE CODE 💌', callback_data='source')
-                ],[
                     InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url=CHNL_LNK)
                   ]]
         
@@ -1375,6 +1373,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
              InlineKeyboardButton('🏠 𝙷𝙾𝙼𝙴 🏠', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text="● ◌ ◌"
+        )
+        await query.message.edit_text(
+            text="● ● ◌"
+        )
+        await query.message.edit_text(
+            text="● ● ●"
+        )
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
@@ -1649,7 +1656,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
             btn = [[
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="help"),
                     InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/KingVj01")
-                  ]]
+                  ]]    
+                  reply_markup = InlineKeyboardMarkup(buttons)
+            await query.message.edit_text(
+                text="● ◌ ◌"
+            )
+            await query.message.edit_text(
+                text="● ● ◌"
+            )
+            await query.message.edit_text(
+                text="● ● ●"
+            )
             await client.edit_message_media(
                 query.message.chat.id, 
                 query.message.id, 
@@ -1666,6 +1683,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="help"),
                     InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/KingVj01")
                   ]]
+                  reply_markup = InlineKeyboardMarkup(buttons)
+            await query.message.edit_text(
+                text="● ◌ ◌"
+            )
+            await query.message.edit_text(
+                text="● ● ◌"
+            )
+            await query.message.edit_text(
+                text="● ● ●"
+            )
             await client.edit_message_media(
                 query.message.chat.id, 
                 query.message.id, 
@@ -1707,6 +1734,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="help"),
                     InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/KingVj01")
                   ]]
+                  reply_markup = InlineKeyboardMarkup(buttons)
+            await query.message.edit_text(
+                text="● ◌ ◌"
+            )
+            await query.message.edit_text(
+                text="● ● ◌"
+            )
+            await query.message.edit_text(
+                text="● ● ●"
+            )
             await client.edit_message_media(
                 query.message.chat.id, 
                 query.message.id, 
@@ -1723,6 +1760,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
                     InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/KingVj01")
                   ]]
+                  reply_markup = InlineKeyboardMarkup(buttons)
+            await query.message.edit_text(
+                text="● ◌ ◌"
+            )
+            await query.message.edit_text(
+                text="● ● ◌"
+            )
+            await query.message.edit_text(
+                text="● ● ●"
+            )
             await client.edit_message_media(
                 query.message.chat.id, 
                 query.message.id, 
@@ -1739,6 +1786,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
                     InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/KingVj01")
                   ]]
+                  reply_markup = InlineKeyboardMarkup(buttons)
+            await query.message.edit_text(
+                text="● ◌ ◌"
+            )
+            await query.message.edit_text(
+                text="● ● ◌"
+            )
+            await query.message.edit_text(
+                text="● ● ●"
+            )
             await client.edit_message_media(
                 query.message.chat.id, 
                 query.message.id, 
@@ -1755,6 +1812,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
                     InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/KingVj01")
                   ]]
+                  reply_markup = InlineKeyboardMarkup(buttons)
+            await query.message.edit_text(
+                text="● ◌ ◌"
+            )
+            await query.message.edit_text(
+                text="● ● ◌"
+            )
+            await query.message.edit_text(
+                text="● ● ●"
+            )
             await client.edit_message_media(
                 query.message.chat.id, 
                 query.message.id, 
@@ -1771,6 +1838,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
                     InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/KingVj01")
                   ]]
+                  reply_markup = InlineKeyboardMarkup(buttons)
+            await query.message.edit_text(
+                text="● ◌ ◌"
+            )
+            await query.message.edit_text(
+                text="● ● ◌"
+            )
+            await query.message.edit_text(
+                text="● ● ●"
+            )
             await client.edit_message_media(
                 query.message.chat.id, 
                 query.message.id, 
@@ -1787,6 +1864,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
                     InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/KingVj01")
                   ]]
+                  reply_markup = InlineKeyboardMarkup(buttons)
+            await query.message.edit_text(
+                text="● ◌ ◌"
+            )
+            await query.message.edit_text(
+                text="● ● ◌"
+            )
+            await query.message.edit_text(
+                text="● ● ●"
+            )
             await client.edit_message_media(
                 query.message.chat.id, 
                 query.message.id, 
