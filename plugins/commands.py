@@ -31,7 +31,7 @@ async def start(client, message):
                     InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
                     InlineKeyboardButton('🔍 Gʀᴏᴜᴘ', url="https://t.me/+sJOCf7vp4sdhM2Vl"),
-                    InlineKeyboardButton('🎬 channel', url='https://t.me/movie_file_20')
+                    InlineKeyboardButton('🎬 channel', url='https://t.me/+Fxa4IrH6obY4MWFl')
                 ],[
                     InlineKeyboardButton('🎉 Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🎉', url=CHNL_LNK)
                   ]]
