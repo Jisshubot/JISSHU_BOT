@@ -116,7 +116,7 @@
 <details><summary>Deploy To Heroku</summary>
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/Zishankhan12/JISSHU-BOT">
+<a href="https://heroku.com/deploy?template=https://github.com/Jisshubot/JISSHU-BOT">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy To Heroku">
 </a>
 </p>
@@ -155,7 +155,7 @@ Use these settings when adding a monitor:</b>
 <b>Click on the below button to deploy directly to render ↓</b>
 <br>
 <br>
-<a href="https://render.com/deploy?repo=https://github.com/Zishankhan12/JISSHU-BOT/tree/main">
+<a href="https://render.com/deploy?repo=https://github.com/Jisshubot/JISSHU-BOT/tree/main">
 <img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render">
 </a>
 </details>
@@ -163,7 +163,7 @@ Use these settings when adding a monitor:</b>
 <details><summary>Deploy To VPS</summary>
 <p>
 <pre>
-git clone https://github.com/Zishankhan12/JISSHU-BOT)
+git clone https://github.com/Jisshubot/JISSHU-BOT
 # Install Packages
 pip3 install -U -r requirements.txt
 Edit info.py with variables as given below then run bot
