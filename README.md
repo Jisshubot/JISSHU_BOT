@@ -177,9 +177,9 @@ python3 bot.py
 
 ## Thanks to ⚡
  - Thanks To Dan For His Awesome [Library](https://github.com/pyrogram/pyrogram)
- - Thanks To VJ For His Awesome [Media-Search-bot](https://github.com/zishankhan12)
+ - Thanks To jisshu For His Awesome [Media-Search-bot](https://github.com/zishankhan12)
  - Thanks To [JISSHU-BOT](https://youtube.com)
- - Thanks To LazyDeveloperr for stream feature
+ - Thanks To AIIYA for stream feature
  - Thanks To All Everyone In This Journey
 
 ## Note 🏷️
