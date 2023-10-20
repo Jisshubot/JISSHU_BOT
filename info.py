@@ -18,21 +18,21 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '22561857'))
-API_HASH = environ.get('API_HASH', '6581d3daf4b40f722a22ddb5ca1281c2')
+API_ID = int(environ.get('API_ID', '21606847'))
+API_HASH = environ.get('API_HASH', 'b9708b698eed88f053454aed2598e571')
 BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://graph.org/file/4c4e6c3e4c7348ce954b6.jpg https://graph.org/file/d0f97b1299f188ce7c42b.jpg https://graph.org/file/10666f11431b8869ee866.jpg https://graph.org/file/bc6c02c7f17cd7bd779fb.jpg https://graph.org/file/e5607f87fe2e741a8ece7.jpg')).split() #SAMPLE PIC
+PICS = (environ.get('PICS', 'https://graph.org/file/5b65144967a1916dc4532.jpg')).split() #SAMPLE PIC
 NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/46443096bc6895c74a716.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/451f038b4e7c2ddd10dc0.mp4")
 SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/5e2d4418525832bc9a1b9.jpg")
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5672857559').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1383239349').split()]
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001942980809').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '-1001980999524').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
@@ -61,7 +61,7 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+sJOCf7vp4sdhM2Vl')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+Jpiz-WX76lMzYjJl')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+Fxa4IrH6obY4MWFl')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/MAPOriginal')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
