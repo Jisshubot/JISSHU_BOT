@@ -5,7 +5,7 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/Jisshubot/JISSHU-BOT.git /JISSHU-BOT 
+  git clone https://github.com/kingkhan11111/JISSHU-BOT.git /JISSHU-BOT 
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
   git clone $UPSTREAM_REPO /JISSHU-BOT 
