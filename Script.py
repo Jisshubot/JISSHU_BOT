@@ -220,7 +220,7 @@ IMDb Data:
 📆 Year: <a href={url}/releaseinfo>{year}</a>
 🌟 Rᴀᴛɪɴɢ: <a href={url}/ratings>{rating}</a>
 ⏰Result Shown in: {remaining_seconds} <i>seconds</i> 🔥
-Requested by : {message.from_user.mention}</b>"""
+
     
     ALL_FILTERS = """
 <b>Hᴇʏ {}, Tʜᴇsᴇ ᴀʀᴇ ᴍʏ ᴛʜʀᴇᴇ ᴛʏᴘᴇs ᴏғ ғɪʟᴛᴇʀs.</b>"""
