@@ -220,9 +220,7 @@ IMDb Data:
 <b>🏷 Title</b>: <a href={url}>{title}</a>
 🎭 Genres: {genres}
 📆 Year: <a href={url}/releaseinfo>{year}</a>
-🌟 Rating: <a href={url}/ratings>{rating}</a>
-☀️ Languages : <code>{languages}</code>
-📀 RunTime: {runtime} Minutes
+🌟 Rᴀᴛɪɴɢ: <a href={url}/ratings>{rating}</a>/10"""
 ⏰Result Shown in: {remaining_seconds} <i>seconds</i> 🔥
 Requested by : {message.from_user.mention}</b>"""
     
