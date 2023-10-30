@@ -219,7 +219,6 @@ IMDb Data:
 🎭 Genres: {genres}
 📆 Year: <a href={url}/releaseinfo>{year}</a>
 🌟 Rating: <a href={url}/ratings>{rating}</a> / 10 
-📆 Release Info : {release_date}
 ⏰Result Shown in: {remaining_seconds} <i>seconds</i> 🔥
 
     
