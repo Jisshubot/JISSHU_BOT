@@ -5,12 +5,12 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/Jisshubot/JISSHU-BOT.git /JISSHU-BOT 
+  git clone https://github.com/Jisshubot/joker-bot.git /joker-bot
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
-  git clone $UPSTREAM_REPO /JISSHU-BOT 
+  git clone $UPSTREAM_REPO /joker-bot 
 fi
-cd /JISSHU-BOT 
+cd /joker-bot
 pip3 install -U -r requirements.txt
 echo "Starting Bot...."
 python3 bot.py
