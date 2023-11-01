@@ -110,13 +110,13 @@
 ### Optional Variables
 * `PICS`: Telegraph links of images to show in start message.( Multiple images can be used separated by space )
 * `FILE_STORE_CHANNEL`: Channel from were file store links of posts should be made.Separate multiple IDs by space
-* Check [info.py](https://github.com/VJBots/VJ-Filter-Bot/blob/main/info.py) for more optional variables
+* Check [info.py](https://github.com/Jisshubot/joker-bot/blob/main/info.py) for more optional variables
 
 
 <details><summary>Deploy To Heroku</summary>
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/Jisshubot/JISSHU-BOT">
+<a href="https://heroku.com/deploy?template=https://github.com/Jisshubot/joker-bot">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy To Heroku">
 </a>
 </p>
@@ -155,7 +155,7 @@ Use these settings when adding a monitor:</b>
 <b>Click on the below button to deploy directly to render ↓</b>
 <br>
 <br>
-<a href="https://render.com/deploy?repo=https://github.com/Jisshubot/JISSHU-BOT/tree/main">
+<a href="https://render.com/deploy?repo=https://github.com/Jisshubot/joker-bot/tree/main">
 <img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render">
 </a>
 </details>
