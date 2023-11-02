@@ -3,7 +3,7 @@ services:
   - type: web
     name: JISSHU_BOT
     env: python
-    startCommand: python3 main.py
+    startCommand: python3 bot.py
     buildCommand: pip3 install -U -r requirements.txt
     repo: https://github.com/Jisshubot/JISSHU_BOT.git # optional
     region: oregon # optional (defaults to oregon)
