@@ -13,7 +13,7 @@
 
 |<img width="80" src="https://graph.org/file/981a8994f41e5c959286e.jpg">|<img width="80" src="https://graph.org/file/bc6c02c7f17cd7bd779fb.jpg">|
 |:---:|:---:|
-|[`JISSHU-BOTS`](https://github.com/Jisshubot)|[`Zishan-khan`](https://github.com/zkhan12345)|[
+|[`JISSHU-BOTS`](https://github.com/Jisshubot)|[`ELINA-BOTS`](https://github.com/ELINA-BOTS)|[
 
 ## 𝐹𝑒𝑎𝑡𝑢𝑟𝑒𝑠
  hai 
