@@ -1,13 +1,9 @@
-# Don't Remove Credit @movie_file_20
-# Subscribe YouTube Channel For Amazing Bot @movie_file_20
-# Ask Doubt on telegram @KingVJ01
-
 services:
   # A Docker web service
   - type: web
-    name: JISSHU_BOT 
+    name: JISSHU_BOT
     env: python
-    startCommand: python3 bot.py
+    startCommand: python3 main.py
     buildCommand: pip3 install -U -r requirements.txt
     repo: https://github.com/Jisshubot/JISSHU_BOT.git # optional
     region: oregon # optional (defaults to oregon)
@@ -15,4 +11,6 @@ services:
     branch: JISSHU # optional (defaults to master)
     numInstances: 1 # optional (defaults to 1)
     healthCheckPath: /
-#End of yaml
+    envVars:
+      - key: BOT_TOKEN
+        sync: false
