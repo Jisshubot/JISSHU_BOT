@@ -15,5 +15,7 @@ services:
     branch: JISSHU # optional (defaults to master)
     numInstances: 1 # optional (defaults to 1)
     healthCheckPath: /
-
+    envVars
+    - key: BOT_TOKEN    
+      sync: false
 #End of yaml
