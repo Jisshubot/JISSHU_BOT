@@ -11,7 +11,7 @@
 
 ## developers
 
-|<img width="80" src="https://graph.org/file/981a8994f41e5c959286e.jpg">|<img width="80" src="https://avatars.githubusercontent.com/u/113664541">|
+|<img width="80" src="https://graph.org/file/981a8994f41e5c959286e.jpg">|<img width="80" src="https://graph.org/file/bc6c02c7f17cd7bd779fb.jpg">|
 |:---:|:---:|
 |[`JISSHU-BOTS`](https://github.com/Jisshubot)|[`Zishan-khan`](https://github.com/zkhan12345)|[
 
