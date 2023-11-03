@@ -12,5 +12,19 @@ services:
     numInstances: 1 # optional (defaults to 1)
     healthCheckPath: /
     envVars:
+      - key: ADMINS
+        sync: false
+      - key: API_ID
+        sync: false
       - key: BOT_TOKEN
         sync: false
+      - key: CHANNELS
+        sync: false
+      - key: DATABASE_URI
+        sync: false
+      - key: PICS
+        sync: false
+      - key: LOG_CHANNEL
+        sync: false
+        
+        
