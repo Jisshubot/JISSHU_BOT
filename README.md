@@ -120,6 +120,37 @@
 * `FILE_STORE_CHANNEL`: Channel from were file store links of posts should be made.Separate multiple IDs by space
 * Check [info.py](https://github.com/Jisshubot/JISSHU_BOT/blob/main/info.py) for more optional variables
 
+<details><summary>Deploy To Render</summary>
+<br>
+<b>
+Use these commands:
+<br>
+
+<a href="https://render.com/deploy?repo=https://github.com/Jisshubot/JISSHU_BOT/tree/JISSHU">
+<img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render">
+
+
+
+• Build Command: <code>pip3 install -U -r requirements.txt</code>
+<br>
+<br>
+• Start Command: <code>python3 bot.py</code>
+<br>
+<br>
+Go to https://uptimerobot.com/ and add a monitor to keep your bot alive.
+<br>
+<br>
+Use these settings when adding a monitor:</b>
+<br>
+<br>
+<img src="https://telegra.ph/file/a79a156e44f43c9833b50.jpg" alt="render template">
+<br>
+<br>
+<b>Click on the below button to deploy directly to render ↓</b>
+<br>
+<br>
+</a>
+</details>
 
 <details><summary>Deploy To Heroku</summary>
 <p>
@@ -139,34 +170,7 @@
 [![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/Jisshubot/JISSHU_BOT-branch=Tech_Jisshu&name=JISSHU_BOT)
 </details>
 
-<details><summary>Deploy To Render</summary>
-<br>
-<b>
-Use these commands:
-<br>
-<br>
-• Build Command: <code>pip3 install -U -r requirements.txt</code>
-<br>
-<br>
-• Start Command: <code>python3 bot.py</code>
-<br>
-<br>
-Go to https://uptimerobot.com/ and add a monitor to keep your bot alive.
-<br>
-<br>
-Use these settings when adding a monitor:</b>
-<br>
-<br>
-<img src="https://telegra.ph/file/a79a156e44f43c9833b50.jpg" alt="render template">
-<br>
-<br>
-<b>Click on the below button to deploy directly to render ↓</b>
-<br>
-<br>
-<a href="https://render.com/deploy?repo=https://github.com/Jisshubot/JISSHU_BOT/tree/JISSHU">
-<img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render">
-</a>
-</details>
+
 
 <details><summary>Deploy To VPS</summary>
 <p>
@@ -195,7 +199,7 @@ python3 bot.py
 * [![Contact Developer](https://img.shields.io/static/v1?label=Contact+Developer&message=On+Telegram&color=critical)](https://telegram.im/@JISSHU_BOTS)
 * * [![Contact Developer](https://img.shields.io/static/v1?label=Contact+Developer&message=On+Telegram&color=critical)](https://telegram.im/@IM_JISSHU)
 
-[Note To A So Called Dev](https://telegram.dog/JISSHU_BOTS): 
+[Note To A So Called Dev](https://telegram.im/JISSHU_BOTS): 
 
 Fork the repo and edit as per your needs.
 
