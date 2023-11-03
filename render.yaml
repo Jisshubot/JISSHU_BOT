@@ -26,5 +26,8 @@ services:
         sync: false
       - key: LOG_CHANNEL
         sync: false
-        
+      - key: GRP_LNK
+        sync: false
+      - key: CHNL_LNK
+        sync: false
         
