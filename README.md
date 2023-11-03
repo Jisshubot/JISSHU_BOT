@@ -131,7 +131,7 @@ Use these commands:
 
 
 
-• Build Command: <code>pip3 install -U -r requirements.txt</code>
+• Build Command: <code>pip3 install -r requirements.txt</code>
 <br>
 <br>
 • Start Command: <code>python3 bot.py</code>
