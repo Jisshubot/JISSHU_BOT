@@ -129,6 +129,7 @@ Use these commands:
 <a href="https://render.com/deploy?repo=https://github.com/Jisshubot/JISSHU_BOT/tree/JISSHU">
 <img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render">
 
+</details>
 
 <details><summary>Deploy To Heroku</summary>
 <p>
