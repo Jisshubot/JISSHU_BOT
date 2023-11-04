@@ -170,8 +170,8 @@ python3 bot.py
  - Thanks To Dan For His Awesome [Library](https://github.com/pyrogram/pyrogram)
  - Thanks To jisshu For His Awesome [Media-Search-bot](https://github.com/zishankhan12)
  - Thanks To [JISSHU-BOT](https://youtube.com)
- - Thanks To AIIYA for stream feature
- - Thanks To All Everyone In This Journey
+ - Thanks To ALIYA 
+ - Thanks To template redesigned by ELITECRAFT STUDIOS
 
 ## Note 🏷️
  
