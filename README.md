@@ -14,6 +14,12 @@
 |<img width="80" src="https://graph.org/file/981a8994f41e5c959286e.jpg">|<img width="80" src="https://graph.org/file/bc6c02c7f17cd7bd779fb.jpg">|
 |:---:|:---:|
 |[`JISSHU-BOTS`](https://github.com/Jisshubot)|[`ALIYA KHAN`](https://github.com/ELINA-BOTS)|[
+### Support
+
+- Join JISSHU BOTS channel
+  </br>
+  <a href="https://telegram.im/JISSHU_BOTS"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"></a>
+
 
 ## 𝐹𝑒𝑎𝑡𝑢𝑟𝑒𝑠
  hai 
