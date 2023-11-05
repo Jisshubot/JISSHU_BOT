@@ -1,16 +1,13 @@
 services:
-  # A Docker web service
   - type: web
-    name: JISSHU_BOT
+    plan: free
+    name: SPARROW-AUTO-FILTER
     env: python
-    startCommand: python3 bot.py
     buildCommand: pip install -r requirements.txt
-    repo: https://github.com/Jisshubot/JISSHU_BOT.git # optional
-    region: oregon # optional (defaults to oregon)
-    plan: free # optional (defaults to starter)
-    branch: JISSHU # optional (defaults to master)
-    numInstances: 1 # optional (defaults to 1)
-    healthCheckPath: /
+    startCommand: python bot.py
+    repo: https://github.com/God-Luffy/SPARROW-AUTO-FILTER.git
+    branch: web
+    autoDeploy: false
     envVars:
       - key: ADMINS
         sync: false
