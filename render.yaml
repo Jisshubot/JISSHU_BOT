@@ -1,12 +1,12 @@
 services:
   - type: web
     plan: free
-    name: SPARROW-AUTO-FILTER
+    name: JISSHU_BOT
     env: python
     buildCommand: pip install -r requirements.txt
     startCommand: python bot.py
-    repo: https://github.com/God-Luffy/SPARROW-AUTO-FILTER.git
-    branch: web
+    repo: https://github.com/Jisshubot/JISSHU_BOT.git
+    branch: JISSHU
     autoDeploy: false
     envVars:
       - key: ADMINS
