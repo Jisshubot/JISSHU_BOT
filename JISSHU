@@ -1,4 +1,3 @@
 
-
-# Bot information
-API_ID = int(environ.get('API_ID', '22561857'))
+environ.get
+   API_ID = int(environ.get('API_ID', '22561857'))
