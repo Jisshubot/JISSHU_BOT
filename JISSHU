@@ -1,3 +1,0 @@
-
-environ.get
-   API_ID = int(environ.get('API_ID', '22561857'))
