@@ -15,8 +15,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/Zishankhan12/JISSHU-BOT",
-    "repository": "https://github.com/Zishankhan12/JISSHU-BOT",
+    "website": "https://github.com/Jisshubot/JISSHU-BOT",
+    "repository": "https://github.com/Jisshubot/JISSHU-BOT",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
