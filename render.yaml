@@ -29,7 +29,7 @@ services:
       - key: LOG_CHANNEL
         sync: false
       - key: PYTHON_VERSION
-        sync: 3.10.8
+        sync: false 3.10.8
       - key: CHNL_LNK
         sync: false
         
