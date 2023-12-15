@@ -1191,7 +1191,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                  InlineKeyboardButton('Jᴏɪɴ Cʜᴀɴɴᴇʟ', url=link.invite_link),
                  InlineKeyboardButton("Vɪᴇᴡ Sᴛᴀᴛᴜs", url=f"{query.message.link}")
                ],[
-                 InlineKeyboardButton("Rᴇᴏ̨ᴜᴇsᴛ Gʀᴏᴜᴘ Lɪɴᴋ", url="https://t.me/vj_bots")
+                 InlineKeyboardButton("Rᴇᴏ̨ᴜᴇsᴛ Gʀᴏᴜᴘ Lɪɴᴋ", url="https://t.me/JISSHU_BOTS")
                ]]
         if query.from_user.id in ADMINS:
             user = await client.get_users(from_user)
@@ -1374,11 +1374,20 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "JoinUᴘᴅᴀᴛᴇs":
         buttons = [[
-            InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
-            InlineKeyboardButton('Sᴏᴜʀᴄᴇ Cᴏᴅᴇ', callback_data='source')
+            InlineKeyboardButton('🫵SUBSCRIBE🫵', url="https://youtube.com/@JISSHU-BOTS"),
+        ],[
+            InlineKeyboardButton('🍀Movie Search Group🍀', url="https://t.me/+ZjmlLeuGGak5Yjhl")
+        ],[
+            InlineKeyboardButton('🍂Movie channel🍂', url="https://t.me/+Fxa4IrH6obY4MWFl")
+        ],[
+            InlineKeyboardButton('🍁Bots Update Channel🍁', url="https://t.me/JISSHU_BOTS")
+        ],[
+            InlineKeyboardButton('🥀Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ🥀', url=GRP_LNK),
         ],[
             InlineKeyboardButton('Hᴏᴍᴇ', callback_data='start'),
             InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close_data')
+        ],[
+            InlineKeyboardButton('❗Disclaimer❗', callback_data='Disclaimer')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
