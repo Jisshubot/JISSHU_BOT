@@ -9,6 +9,13 @@ class script(object):
     HELP_TXT = """<b>Hᴇʏ {}
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
+    JOINUPDATES_TXT = """<b>🔰 ɢʀᴏᴜᴘs & ᴄʜᴀɴɴᴇʟs ɪɴғᴏ 🔰
+▫️ ᴄᴏᴍᴘʟᴇᴛᴇ ᴍᴏᴠɪᴇs ʀᴇǫᴜᴇsᴛɪɴɢ ɢʀᴏᴜᴘ.
+▫️ ᴀʟʟ ʟᴀɴɢᴜᴀɢᴇ ᴍᴏᴠɪᴇs & sᴇʀɪᴇs.
+▫️ ғᴀsᴛᴇsᴛ ʙᴏᴛs ᴀʀᴇ ᴀᴅᴅᴇᴅ.
+▫️ ғʀᴇᴇ & ᴇᴀsʏ ᴛᴏ ᴜsᴇ.
+▫️ 𝟸𝟺x𝟽 sᴇʀᴠɪᴄᴇs ᴀᴠᴀɪʟᴀʙʟᴇ.</b>"""
+
     ABOUT_TXT = """<b>⍟───[ MY ᴅᴇᴛᴀɪʟꜱ ]───⍟
 ‣ ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/IM_JISSHU>ᵗʰᵃˡᵃᵖᵃᵗʰʸ ᶠⁱˡᵗᵉʳ ᵇᵒᵗ 🇮🇳</a>
  ‣ My best friend : <a href='tg://settings'>ᴛʜɪs ᴘᴇʀsᴏɴ</a> 
