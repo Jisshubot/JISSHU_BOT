@@ -1368,7 +1368,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text=script.JOINUPDATES_TXT,
+            text=script.HELP_TXT,
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
@@ -1396,7 +1396,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text=script.Disclaimer_TXT,
+            text=script.HELP_TXT,
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
