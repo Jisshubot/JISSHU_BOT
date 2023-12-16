@@ -1282,11 +1282,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
                     InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://telegram.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('Eᴀʀɴ Mᴏɴᴇʏ 💸', callback_data="shortlink_info"),
-                    InlineKeyboardButton('⌬ Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url=GRP_LNK)
+                    InlineKeyboardButton('💸 Eᴀʀɴ Mᴏɴᴇʏ', callback_data="shortlink_info"),
+                    InlineKeyboardButton('🍻 Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url=GRP_LNK)
                 ],[
-                    InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'),
-                    InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='about')
+                    InlineKeyboardButton('⚠️ Hᴇʟᴘ', callback_data='help'),
+                    InlineKeyboardButton('🔰 Aʙᴏᴜᴛ', callback_data='about')
                 ],[
                     InlineKeyboardButton('🍀 Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🍀', callback_data='JoinUᴘᴅᴀᴛᴇs')
                   ]]
@@ -1374,20 +1374,35 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "JoinUᴘᴅᴀᴛᴇs":
         buttons = [[
-            InlineKeyboardButton('🫵SUBSCRIBE🫵', url="https://youtube.com/@JISSHU-BOTS"),
+            InlineKeyboardButton('🫵 SUBSCRIBE 🫵', url="https://youtube.com/@JISSHU-BOTS"),
         ],[
-            InlineKeyboardButton('🍀Movie Search Group🍀', url="https://t.me/+ZjmlLeuGGak5Yjhl")
+            InlineKeyboardButton('🍀 Movie Search Group 🍀', url="https://t.me/+ZjmlLeuGGak5Yjhl")
         ],[
-            InlineKeyboardButton('🍂Movie channel🍂', url="https://t.me/+Fxa4IrH6obY4MWFl")
+            InlineKeyboardButton('🍂 Movie channel 🍂', url="https://t.me/+Fxa4IrH6obY4MWFl")
         ],[
-            InlineKeyboardButton('🍁Bots Update Channel🍁', url="https://t.me/JISSHU_BOTS")
+            InlineKeyboardButton('🍁 Bots Update Channel 🍁', url="https://t.me/JISSHU_BOTS")
         ],[
-            InlineKeyboardButton('🥀Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ🥀', url=GRP_LNK),
+            InlineKeyboardButton('🥀 Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ 🥀', url=GRP_LNK),
         ],[
             InlineKeyboardButton('Hᴏᴍᴇ', callback_data='start'),
             InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close_data')
         ],[
-            InlineKeyboardButton('❗Disclaimer❗', callback_data='Disclaimer')
+            InlineKeyboardButton('❗ Disclaimer ❗', callback_data='Disclaimer')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await client.edit_message_media(
+            query.message.chat.id, 
+            query.message.id, 
+            InputMediaPhoto(random.choice(PICS))
+        )
+        await query.message.edit_text(
+            text=script.Disclaimer.format(query.from_user.mention),
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+        )
+    elif query.data == "Disclaimer":
+        buttons = [[
+            InlineKeyboardButton('⬅Back', callback_data='start'),
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
