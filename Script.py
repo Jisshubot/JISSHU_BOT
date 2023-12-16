@@ -4,7 +4,10 @@
 
 
 class script(object):
-    START_TXT = """<b>Hᴇʟʟᴏ {},ᴍʏ ɴᴀᴍᴇ <a href=https://t.me/{}>{}</a>,【ɪᴀᴍ ʟᴀᴛᴇꜱᴛ ᴀᴅᴠᴀɴᴄᴇᴅ】ᴀɴᴅ ᴘᴏᴡᴇʀꜰᴜʟ ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ ʙᴏᴛ+└ᴀᴡᴇꜱᴏᴍᴇ ꜰɪʟᴛᴇʀ┘+├ꜰɪʟᴇ ꜱᴛᴏʀᴇ ʙᴏᴛ┤+☞ᴍᴀɴᴜᴀʟ ꜰɪᴛᴇʀ☜ ᴀɴᴅ ᢵᴄᴜꜱᴛᴏᴍɪᴢᴇᴅ ꜱʜᴏʀᴛɴᴇʀ ꜱᴜᴘᴘᴏʀᴛᢴ ᢾᴀɴᴅ ʙᴇꜱᴛ ᴜɪ ᴘᴇʀꜰᴏʀᴍᴀɴᴄᴇᢿ</b>"""
+    START_TXT = """<b>Hᴇʟʟᴏ {},
+    
+    ɪ ᴀᴍ ᴀ ᴘᴏᴡᴇʀꜰᴜʟ ᴀᴜᴛᴏꜰɪʟᴛᴇʀ + ᴍᴀɴᴜᴀʟꜰɪʟᴛᴇʀ + ꜰɪʟᴇsᴛᴏʀᴇ ʙᴏᴛ.
+ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ɪ ᴡɪʟʟ ɢɪᴠᴇ ᴍᴏᴠɪᴇs ᴏʀ sᴇʀɪᴇs ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ  !!</b>"""
 
     HELP_TXT = """<b>Hᴇʏ {}
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
@@ -22,14 +25,10 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
 🌿 ᴍᴀɴᴀɢᴇᴅ ʙʏ : <a href='https://t.me/JISSHU_BOTS'>JISSHU BOTS</a></b>"""
 
-    ABOUT_TXT = """<b>⍟───[ MY ᴅᴇᴛᴀɪʟꜱ ]───⍟
-‣ ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/IM_JISSHU>ᵗʰᵃˡᵃᵖᵃᵗʰʸ ᶠⁱˡᵗᵉʳ ᵇᵒᵗ 🇮🇳</a>
- ‣ My best friend : <a href='tg://settings'>ᴛʜɪs ᴘᴇʀsᴏɴ</a> 
- ‣ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/IM_JISSHU'>ⁱᵗᶻ ᵐᵉ ᵗᵍ 🇮🇳</a> 
- ‣ ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a> 
- ‣ ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 3</a> 
- ‣ ᴅᴀᴛᴀ ʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a> 
- ‣ ʙᴏᴛ sᴇʀᴠᴇʀ : <a href='https://heroku.com'>Heroku</a> 
+    ABOUT_TXT = """<b>⍟───[ ʙᴏᴛ ᴅᴇᴛᴀɪʟꜱ ]───⍟
+ ‣ ᴍʏ ɴᴀᴍᴇ : 𝗘𝗟𝗜𝗡𝗔_𝗕𝗢𝗧
+ ‣ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/IM_JISSHU'>ZISHAN</a> 
+ ‣ ʙᴏᴛ sᴇʀᴠᴇʀ : <a href='https://render.com'>ʀᴇɴᴅᴇʀ</a> 
  ‣ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ2.7.1 [sᴛᴀʙʟᴇ]></b>"""
 
     SOURCE_TXT = """
