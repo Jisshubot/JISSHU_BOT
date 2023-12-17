@@ -1342,6 +1342,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('❗ Disclaimer ❗', callback_data='Disclaimer')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text="● ◌ ◌"
+        )
+        await query.message.edit_text(
+            text="● ● ◌"
+        )
+        await query.message.edit_text(
+            text="● ● ●"
+        )
+        reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
