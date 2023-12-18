@@ -1,6 +1,8 @@
 build:
   docker:
-      worker: Dockerfile
+    worker: Dockerfile
+run:
+  worker: bash start.sh 
 
       # Don't Remove Credit @movie_file_20
 # Subscribe YouTube Channel For Amazing Bot @movie_file_20
