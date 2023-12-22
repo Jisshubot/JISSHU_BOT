@@ -9,13 +9,6 @@
 ![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=𝑊𝑒𝑙𝑐𝑜𝑚𝑒+𝑇𝑜+ZISHAN-Bot;𝐴+𝑠𝑖𝑚𝑝𝑙𝑒+𝑎𝑛𝑑+𝑝𝑜𝑤𝑒𝑟𝑓𝑢𝑙+𝐵𝑜𝑡!;𝐼𝑛𝑑𝑒𝑥𝑒𝑠+𝐹𝑖𝑙𝑒𝑠+𝑎𝑏𝑜𝑣𝑒+2𝐺𝐵;𝐴+𝐵𝑜𝑡+𝑤𝑖𝑡ℎ+𝑑𝑜𝑢𝑏𝑙𝑒+𝑏𝑢𝑡𝑡𝑜𝑛!;𝑆𝑡𝑎𝑟𝑡+𝑚𝑒𝑠𝑠𝑎𝑔𝑒+𝑤𝑖𝑡ℎ+𝑝𝑖𝑐!;𝐴𝑛𝑑+𝑚𝑜𝑟𝑒+𝑓𝑒𝑎𝑡𝑢𝑟𝑒𝑠!)
 </p>
 
-## developers
-
-|<img width="80" src="https://graph.org/file/981a8994f41e5c959286e.jpg">|<img width="80" src="https://graph.org/file/bc6c02c7f17cd7bd779fb.jpg">|
-|:---:|:---:|
-|[`JISSHU-BOTS`](https://github.com/Jisshubot)|[`ALIYA KHAN`](https://github.com/ELINA-BOTS)|[
-### Support
-
 - Join JISSHU BOTS channel
   </br>
   <a href="https://telegram.im/JISSHU_BOTS"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"></a>
